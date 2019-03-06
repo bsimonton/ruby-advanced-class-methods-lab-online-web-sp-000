@@ -53,7 +53,7 @@ end
 end
 
 def self.alphabetical 
-  
+ abc_order = self.all.sort_by {} 
   
 end
 
