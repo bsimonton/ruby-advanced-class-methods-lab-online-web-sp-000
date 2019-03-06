@@ -18,5 +18,12 @@ end
 
 
 
+def self.new_by_name(string)
+  
+end
+  
+
+
+
 
 end
