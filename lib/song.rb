@@ -66,6 +66,8 @@ def self.new_from_filename(filename)
     song.artist_name = song_array[0]
     song
   end
+  
+  
 
 
 
