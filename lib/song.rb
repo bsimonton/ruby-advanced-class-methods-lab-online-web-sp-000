@@ -42,7 +42,10 @@ end
 
 def self.find_or_create_by_name(song_name)
  found_song = self.find_by_name(song_name)
- 
+ if found_song  
+   found_song
+ else
+  
 
 
 
