@@ -53,7 +53,8 @@ end
 end
 
 def self.alphabetical 
- abc_order = self.all.sort_by {} 
+ abc_order = self.all.sort_by {|song| song.name} 
+ abc_order
   
 end
 
